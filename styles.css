@@ -1,0 +1,33 @@
+/* Estilo general para la página */
+body {
+    font-family: Arial, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    background-color: #222222; /* Fondo oscuro */
+    color: #ffffff; /* Texto blanco */
+    text-align: center;
+}
+
+/* Contenedor principal */
+.container {
+    max-width: 800px;
+    margin: 20px;
+}
+
+/* Estilo para la imagen */
+.foto-dj {
+    width: 100%;
+    max-width: 500px;
+    border-radius: 10px;
+    margin-bottom: 20px;
+}
+
+/* Estilo para el eslogan */
+.eslogan {
+    font-size: 2.5rem;
+    font-weight: bold;
+    color: #f5a623; /* Color amarillo-naranja */
+}
